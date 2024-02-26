@@ -1,0 +1,14 @@
+/* style navbar */
+#logo {
+  height: 40px;
+  width: 110px;
+  background-color: rgba(13, 40, 166, 1);
+}
+#Register {
+  background-color: rgba(92, 184, 95, 1);
+  color: white;
+  width: 10ch;
+  margin-left: 2ch;
+  border-radius: 8%;
+  border: none;
+}
