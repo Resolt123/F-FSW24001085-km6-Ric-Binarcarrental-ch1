@@ -28,16 +28,29 @@
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarOffcanvasLg"
+            aria-controls="navbarOffcanvasLg"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto p-2 gap-3">
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="navbarOffcanvasLgLabel"
+          >
+            <div class="offcanvas-header px-5">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BCR</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <ul class="navbar-nav ms-md-auto p-md-2 px-5 gap-3">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
                   >Our Services</a
@@ -52,13 +65,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">FAQ</a>
               </li>
-              <button
-                class="btn text-light mx-4"
-                type="submit"
-                style="background-color: #5cb85f"
-              >
-                Register
-              </button>
+              <div>
+                <button
+                  class="btn text-light mx-md-4"
+                  type="submit"
+                  style="background-color: #5cb85f"
+                >
+                  Register
+                </button>
+              </div>
             </ul>
           </div>
         </div>
@@ -329,12 +344,10 @@
     <!-- accordion -->
     <div class="container py-5 my-5">
       <div class="row">
-        <div class="col text-xl-end text-sm-center">
-          <div class="">
-            <!-- <div class="text-left"> -->
+        <div class="col-md-6">
+          <div class="text-center text-md-start">
             <h3><b>Frequently Asked Question</b></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-            <!-- </div> -->
           </div>
         </div>
         <div class="col-md-6">
